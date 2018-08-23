@@ -1,0 +1,63 @@
+Algoritmos teste técnico Back-end
+
+1)
+Início
+1° Passo: Realizar a equação do aumento de salário(S) de 2006 (S=S+S*A);
+2° Passo: Realizar a equação para dobrar o aumento(A) do salário (A*=2)
+3° Passo: Realizar a equação de aumento padrão para o restante dos anos (N=S+S*A);
+4° Passo: Repetir para manter em evidencia qual o ano do aumento salarial (cont+=1);
+5° Passo: Guardar o aumento (A) e o salário (S) do ano vigente;
+6° Passo: Se cont<2018 voltar para o 2°Passo, se não, continuar;
+7° Passo: Exibir o valor de “N” para mostrar o salário em 2018 e finalizar o algoritmo.	
+
+2)
+Início 
+1°Passo: Receber o número inicial(I) e o número final(F);
+2°Passo: Se I<=0 ou I>F voltar para o 1°Passo;
+3°Passo: Realizar a equação para testar os números para saber se são primos I/=N (no inicio N=1);
+4°Passo: Realizar a equação para aumentar N e manter os testes (N+=1);
+5°Passo: Guardar o numero de resultados onde o resto é zero (I%N=0);
+6°Passo: Se o número de resultados for <= 2 exibir I, se não, continuar o algoritmo;
+7°Passo: Se I=N encerrar a sequencia de números primos e finalizar o algoritmo, se não, continuar o algoritmo;
+8°Passo: Acrescentar mais um em I (I++) e voltar ao passo 3°Passo.
+
+3) 
+Início
+1°Passo: Receber o número de horas trabalhadas (H) e o valor do salário mínimo (M);
+2°Passo: Se H<=0 ou M <=0 voltar ao 1°Passo, se não, continuar o algoritmo;
+3°Passo: Calcular o valor da hora trabalhada (VH) com a equação VH=M*0.10;
+4°Passo: Calcular o salário bruto (B) com a equação B=VH*H;
+5°Passo: Calcular o salário (S) com a equação S=B+B*0.03;
+6°Passo: Exibir o salário (S) e finalizar o algoritmo.
+
+4)
+Início
+1°Passo: Receber o tamanho a ser pintado em m²(A);
+2°Passo: Se A<=0 voltar ao 1°Passo, se não, continuar o algoritmo;
+3°Passo: Calcular quantas latas (L) serão usadas com a equação L=A/54 
+4°Passo: Arredondar o número de latas(L) para cima;
+5°Passo: Calcular o preço total(P) com a equação P=L*80
+6°Passo: Exibir quantas latas (L) serão usadas, o preço (P) total e finalizar o algoritmo.
+
+5)
+Início
+1°Passo: Criar uma Classe denominada Conta;
+2°Passo: Determinar um número para a Conta;
+3°Passo: Determinar o nome do correntista;
+4°Passo: Determinar o Saldo da Conta;
+5°Passo: Possibilitar a realização de saque se saldo>=saque retirando o valor do saldo (saldo-=valor), se não, não realizar o saque e continuar o algoritmo;
+6°Passo: Possibilitar a realização de deposito adicionando o valor ao saldo (saldo+=valor);
+7°Passo: Possibilitar a alteração do nome do correntista;
+
+6) 
+Início
+1°Passo: Criar uma Classe denominada Retângulo;
+2°Passo: Pedir as medidas da base (B) e altura (h);
+3°Passo: Receber as medidas da base (B) e altura (h);
+4°Passo: Modular um Objeto seguindo as medidas da base (B) e altura (h);
+5°Passo: Possibilitar a alteração do valor da base (B), se novo valor da base (B) for igual ao valor da altura (h), não permitir a alteração, se não, aceitar a alteração e continuar o algoritmo;
+6°Passo: Possibilitar o retorno do valor da base (B) se for requisitado pelo usuário; 
+7°Passo: Possibilitar a alteração do valor da altura (h), se novo valor da altura (h) for igual ao valor da base (B), não permitir a alteração, se não, aceitar a alteração e continuar o algoritmo;
+8°Passo: Possibilitar o retorno do valor da altura (h); 
+9°Passo: Possibilitar a realização do calculo da área (A) com a equação A=B*h;
+10°Passo: Possibilitar a realização do calculo do perímetro (P) com a equação P=2*h+2*B.
